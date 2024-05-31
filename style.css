@@ -67,7 +67,7 @@ section{
   height: 100vh;
   display: flex;
   align-items: center;
-  background : url(/img/tech.jpg);
+  background : url(https://raw.githubusercontent.com/dulaim756/Portfolio/main/img/tech.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
