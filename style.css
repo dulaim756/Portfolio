@@ -64,7 +64,6 @@ section{
 }
 .main{
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   background : url(https://raw.githubusercontent.com/dulaim756/Portfolio/main/img/tech.jpg);
@@ -179,4 +178,71 @@ font-weight: 700;
   color: #66fcf1;
   font-size: 8em;
   margin-left: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+      flex-direction: column;
+      padding: 10px 5%;
+  }
+  .navi {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .navi a {
+      padding: 10px 0;
+  }
+  .main h2 {
+      font-size: 1em;
+  }
+  .main-btn {
+      font-size: 1em;
+  }
+  .icon a {
+      font-size: 1.5em;
+  }
+  .title {
+      font-size: 1.5em;
+  }
+  .icons-contact a {
+      font-size: 3em;
+      margin-left: 10px;
+  }
+  section {
+      padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutme {
+      font-size: 1em;
+  }
+  .main h2 {
+      font-size: 0.8em;
+  }
+  .main-btn {
+      font-size: 0.9em;
+  }
+  .icon a {
+      font-size: 1.2em;
+  }
+  .title {
+      font-size: 1.2em;
+  }
+  .icons-contact a {
+      font-size: 2em;
+      margin-left: 5px;
+  }
+  section {
+      padding: 30px 10px;
+  }
+  .topheader{
+    background-color: #0b0c10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    position: relative;  }
 }
